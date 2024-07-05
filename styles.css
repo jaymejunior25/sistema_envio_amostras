@@ -158,7 +158,6 @@ a{
 .content {
     margin-left: 260px;
     padding: 20px;
-    /*background-color: #67d4c2;*/
 }
 footer {
     background-color: #f8f9fa;
@@ -185,30 +184,6 @@ footer {
 }
 
 .table-wrapper {
-    /*max-height: 550px;  Ajuste conforme necessário */
-    max-height: fit-content;
-    max-width: fit-content;
-    resize:both;
-    overflow:auto;
+    max-height: 550px; /* Ajuste conforme necessário */
     overflow-y: auto;
 }
-
-section {
-    background: rgb(228, 252, 250);
-    position: sticky;
-    Right: 0;
-    align-self: start;
-  }
-
-.headcol {
-    position: absolute;
-    width: 5em;
-    Right: 0;
-    top: auto;
-    border-top-width: 1px;
-    /*only relevant for first row*/
-    margin-top: -1px;
-    /*compensate for top border*/
-  }
-
-  
